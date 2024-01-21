@@ -1,0 +1,45 @@
+.vien{
+    border: 2px solid #DDDDDE;
+    height: 600px;
+    text-align: center;
+}
+.anh{
+    text-align: center;
+}
+.vien2{
+    border: 2px solid burlywood;
+}
+.menu{
+    font-size: 30px;
+    
+}
+/* .menu>a{
+    Font-variant:small-caps;
+ Color:blue;
+ Text-decoration:none;
+}
+ 
+.menu>a:visited{
+    Color:green;
+}
+ 
+.menu>a:hover{
+    Color:red;
+    Text-decoration:underline;
+} */
+
+a {
+    color: blue;
+    text-decoration: none; /* Loại bỏ gạch chân */
+   
+  }
+  /* Liên kết khi di chuột qua */
+  a:hover {
+    color: red;
+    text-decoration: underline; /* Thêm gạch chân khi di chuột qua */
+  }
+  
+  /* Liên kết khi đang ở trạng thái nhấp chuột */
+  a:active {
+    color: green;
+  }
